@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body { font-family: Calibri, var(--font-head), system-ui, sans-serif; background: #f6f5f9; color: #1f2344; }
+@page { size: A4 landscape; margin: 10mm; }
+@media print { body { background: #fff; -webkit-print-color-adjust: exact; print-color-adjust: exact; } }
